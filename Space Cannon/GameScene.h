@@ -8,6 +8,8 @@
 
 #import <SpriteKit/SpriteKit.h>
 
+static const uint32_t edgeCategory     =  0x1 << 4;
+
 @interface GameScene : SKScene
 
 @end

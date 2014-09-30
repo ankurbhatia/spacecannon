@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43A35CC619DA7600000EAAAD /* 8Ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A35CC319DA7600000EAAAD /* 8Ball@2x.png */; };
+		43A35CC719DA7600000EAAAD /* BeachBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A35CC419DA7600000EAAAD /* BeachBall@2x.png */; };
+		43A35CC819DA7600000EAAAD /* SoccerBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A35CC519DA7600000EAAAD /* SoccerBall@2x.png */; };
 		43F7425C19D9EFF000F6D8B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F7425B19D9EFF000F6D8B0 /* main.m */; };
 		43F7425F19D9EFF000F6D8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F7425E19D9EFF000F6D8B0 /* AppDelegate.m */; };
 		43F7426219D9EFF000F6D8B0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F7426119D9EFF000F6D8B0 /* GameScene.m */; };
@@ -29,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43A35CC319DA7600000EAAAD /* 8Ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8Ball@2x.png"; sourceTree = "<group>"; };
+		43A35CC419DA7600000EAAAD /* BeachBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BeachBall@2x.png"; sourceTree = "<group>"; };
+		43A35CC519DA7600000EAAAD /* SoccerBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SoccerBall@2x.png"; sourceTree = "<group>"; };
 		43F7425619D9EFF000F6D8B0 /* Space Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F7425A19D9EFF000F6D8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43F7425B19D9EFF000F6D8B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +71,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43A35CC219DA7600000EAAAD /* BallChallengeAssets */ = {
+			isa = PBXGroup;
+			children = (
+				43A35CC319DA7600000EAAAD /* 8Ball@2x.png */,
+				43A35CC419DA7600000EAAAD /* BeachBall@2x.png */,
+				43A35CC519DA7600000EAAAD /* SoccerBall@2x.png */,
+			);
+			path = BallChallengeAssets;
+			sourceTree = "<group>";
+		};
 		43F7424D19D9EFF000F6D8B0 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,7 @@
 		43F7425819D9EFF000F6D8B0 /* Space Cannon */ = {
 			isa = PBXGroup;
 			children = (
+				43A35CC219DA7600000EAAAD /* BallChallengeAssets */,
 				43F7425D19D9EFF000F6D8B0 /* AppDelegate.h */,
 				43F7425E19D9EFF000F6D8B0 /* AppDelegate.m */,
 				43F7426019D9EFF000F6D8B0 /* GameScene.h */,
@@ -211,6 +228,9 @@
 				43F7426C19D9EFF000F6D8B0 /* Images.xcassets in Resources */,
 				43F7426419D9EFF000F6D8B0 /* GameScene.sks in Resources */,
 				43F7426A19D9EFF000F6D8B0 /* Main.storyboard in Resources */,
+				43A35CC619DA7600000EAAAD /* 8Ball@2x.png in Resources */,
+				43A35CC719DA7600000EAAAD /* BeachBall@2x.png in Resources */,
+				43A35CC819DA7600000EAAAD /* SoccerBall@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +376,7 @@
 				INFOPLIST_FILE = "Space Cannon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -366,6 +387,7 @@
 				INFOPLIST_FILE = "Space Cannon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -422,6 +444,7 @@
 				43F7428019D9EFF000F6D8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43F7428119D9EFF000F6D8B0 /* Build configuration list for PBXNativeTarget "Space CannonTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +453,7 @@
 				43F7428319D9EFF000F6D8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
